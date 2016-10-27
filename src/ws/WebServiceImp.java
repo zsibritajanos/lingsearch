@@ -1,6 +1,8 @@
 package ws;
 
 
+import elastic.Elastic;
+
 import javax.jws.WebService;
 
 /**
@@ -11,7 +13,8 @@ public class WebServiceImp implements WebServiceInterface {
 
     @Override
     public String hello(String s) {
-        return "Hello " + s + "!";
+        Elastic elastic = new Elastic();
+        return "Hello " + elastic.getElementById("AVgHwkff_Dj2_nYbAg8p") + "!";
     }
 
 }
