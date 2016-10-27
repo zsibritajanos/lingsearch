@@ -1,0 +1,255 @@
+22-Oct-2016 12:14:59.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M11
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 18:54:10 UTC
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Oct-2016 12:14:59.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_101\jre
+22-Oct-2016 12:14:59.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+22-Oct-2016 12:14:59.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Oct-2016 12:14:59.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:14:59.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:14:59.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Oct-2016 12:14:59.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Oct-2016 12:14:59.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:\apache-tomcat-9.0.0.M11\conf\logging.properties
+22-Oct-2016 12:14:59.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2016 12:14:59.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:14:59.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:14:59.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:\apache-tomcat-9.0.0.M11\temp
+22-Oct-2016 12:14:59.993 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+22-Oct-2016 12:14:59.993 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Oct-2016 12:14:59.993 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Oct-2016 12:15:00.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+22-Oct-2016 12:15:00.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 12:15:00.863 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Oct-2016 12:15:00.865 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 12:15:00.868 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Oct-2016 12:15:00.868 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1369 ms
+22-Oct-2016 12:15:00.892 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Oct-2016 12:15:00.892 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M11
+22-Oct-2016 12:15:00.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\docs
+22-Oct-2016 12:15:01.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\docs has finished in 431 ms
+22-Oct-2016 12:15:01.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\examples
+22-Oct-2016 12:15:01.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\examples has finished in 377 ms
+22-Oct-2016 12:15:01.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\host-manager
+22-Oct-2016 12:15:01.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\host-manager has finished in 24 ms
+22-Oct-2016 12:15:01.735 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\manager
+22-Oct-2016 12:15:01.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\manager has finished in 23 ms
+22-Oct-2016 12:15:01.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\ROOT
+22-Oct-2016 12:15:01.790 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\ROOT has finished in 31 ms
+22-Oct-2016 12:15:01.792 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Oct-2016 12:15:01.798 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Oct-2016 12:15:01.801 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 932 ms
+22-Oct-2016 12:15:21.811 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive D:\apache-tomcat-9.0.0.M11\webapps\lingsearch.war
+22-Oct-2016 12:15:52.095 SEVERE [localhost-startStop-2] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/lingsearch]
+ java.io.IOException: Unable to create the directory [D:\apache-tomcat-9.0.0.M11\webapps\lingsearch\META-INF\license]
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:152)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:615)
+	at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:748)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:92)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:401)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Oct-2016 12:16:08.218 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 12:16:08.273 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 12:16:08.323 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Oct-2016 12:16:08.323 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWARs Error waiting for multi-thread deployment of WAR files to complete
+ java.lang.InterruptedException
+	at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:404)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:744)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:407)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1595)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:92)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Oct-2016 12:17:26.107 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2016 12:17:26.108 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+22-Oct-2016 12:17:26.109 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.startInternal Context [/lingsearch] startup failed due to previous errors
+22-Oct-2016 12:17:26.118 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive D:\apache-tomcat-9.0.0.M11\webapps\lingsearch.war has finished in 124,307 ms
+22-Oct-2016 12:17:26.134 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 12:17:26.137 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 12:17:26.139 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 12:17:26.140 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 12:27:03.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M11
+22-Oct-2016 12:27:03.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2016 18:54:10 UTC
+22-Oct-2016 12:27:03.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+22-Oct-2016 12:27:03.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+22-Oct-2016 12:27:03.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+22-Oct-2016 12:27:03.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Oct-2016 12:27:03.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jdk1.8.0_101\jre
+22-Oct-2016 12:27:03.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+22-Oct-2016 12:27:03.363 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Oct-2016 12:27:03.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:27:03.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:27:03.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Oct-2016 12:27:03.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Oct-2016 12:27:03.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=d:\apache-tomcat-9.0.0.M11\conf\logging.properties
+22-Oct-2016 12:27:03.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Oct-2016 12:27:03.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=d:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:27:03.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=d:\apache-tomcat-9.0.0.M11
+22-Oct-2016 12:27:03.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=d:\apache-tomcat-9.0.0.M11\temp
+22-Oct-2016 12:27:03.367 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+22-Oct-2016 12:27:03.368 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+22-Oct-2016 12:27:03.368 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22-Oct-2016 12:27:03.969 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+22-Oct-2016 12:27:04.097 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 12:27:04.185 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Oct-2016 12:27:04.187 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 12:27:04.190 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Oct-2016 12:27:04.190 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1189 ms
+22-Oct-2016 12:27:04.214 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Oct-2016 12:27:04.215 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M11
+22-Oct-2016 12:27:04.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\docs
+22-Oct-2016 12:27:04.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\docs has finished in 287 ms
+22-Oct-2016 12:27:04.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\examples
+22-Oct-2016 12:27:04.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\examples has finished in 310 ms
+22-Oct-2016 12:27:04.821 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\host-manager
+22-Oct-2016 12:27:04.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\host-manager has finished in 28 ms
+22-Oct-2016 12:27:04.850 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\manager
+22-Oct-2016 12:27:04.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\manager has finished in 26 ms
+22-Oct-2016 12:27:04.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\apache-tomcat-9.0.0.M11\webapps\ROOT
+22-Oct-2016 12:27:04.906 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\apache-tomcat-9.0.0.M11\webapps\ROOT has finished in 30 ms
+22-Oct-2016 12:27:04.909 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Oct-2016 12:27:04.916 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Oct-2016 12:27:04.919 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 728 ms
+22-Oct-2016 12:27:14.924 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive D:\apache-tomcat-9.0.0.M11\webapps\magyarlanc-web.war
+22-Oct-2016 12:28:03.713 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2016 12:28:05.117 SEVERE [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate WSSERVLET11: failed to parse runtime descriptor: java.lang.NoClassDefFoundError: org/glassfish/external/amx/AMXGlassfish
+ java.lang.NoClassDefFoundError: org/glassfish/external/amx/AMXGlassfish
+	at com.sun.xml.ws.server.MonitorBase.createMOMLoop(MonitorBase.java:209)
+	at com.sun.xml.ws.server.MonitorBase.createManagedObjectManager(MonitorBase.java:133)
+	at com.sun.xml.ws.server.WSEndpointImpl.obtainManagedObjectManager(WSEndpointImpl.java:640)
+	at com.sun.xml.ws.server.WSEndpointImpl.initManagedObjectManager(WSEndpointImpl.java:621)
+	at com.sun.xml.ws.server.WSEndpointImpl.<init>(WSEndpointImpl.java:151)
+	at com.sun.xml.ws.server.EndpointFactory.create(EndpointFactory.java:337)
+	at com.sun.xml.ws.server.EndpointFactory.create(EndpointFactory.java:332)
+	at com.sun.xml.ws.server.EndpointFactory.createEndpoint(EndpointFactory.java:164)
+	at com.sun.xml.ws.api.server.WSEndpoint.create(WSEndpoint.java:577)
+	at com.sun.xml.ws.api.server.WSEndpoint.create(WSEndpoint.java:560)
+	at com.sun.xml.ws.transport.http.DeploymentDescriptorParser.parseAdapters(DeploymentDescriptorParser.java:303)
+	at com.sun.xml.ws.transport.http.DeploymentDescriptorParser.parse(DeploymentDescriptorParser.java:179)
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate(WSServletContextListener.java:131)
+	at com.sun.xml.ws.transport.http.servlet.WSServletContainerInitializer.onStartup(WSServletContainerInitializer.java:65)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.glassfish.external.amx.AMXGlassfish
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1275)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1109)
+	... 26 more
+
+22-Oct-2016 12:28:05.121 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.startInternal Error during ServletContainerInitializer processing
+ javax.servlet.ServletException: com.sun.xml.ws.transport.http.servlet.WSServletException: WSSERVLET11: failed to parse runtime descriptor: java.lang.NoClassDefFoundError: org/glassfish/external/amx/AMXGlassfish
+	at com.sun.xml.ws.transport.http.servlet.WSServletContainerInitializer.onStartup(WSServletContainerInitializer.java:70)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.sun.xml.ws.transport.http.servlet.WSServletException: WSSERVLET11: failed to parse runtime descriptor: java.lang.NoClassDefFoundError: org/glassfish/external/amx/AMXGlassfish
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate(WSServletContextListener.java:141)
+	at com.sun.xml.ws.transport.http.servlet.WSServletContainerInitializer.onStartup(WSServletContainerInitializer.java:65)
+	... 12 more
+Caused by: java.lang.NoClassDefFoundError: org/glassfish/external/amx/AMXGlassfish
+	at com.sun.xml.ws.server.MonitorBase.createMOMLoop(MonitorBase.java:209)
+	at com.sun.xml.ws.server.MonitorBase.createManagedObjectManager(MonitorBase.java:133)
+	at com.sun.xml.ws.server.WSEndpointImpl.obtainManagedObjectManager(WSEndpointImpl.java:640)
+	at com.sun.xml.ws.server.WSEndpointImpl.initManagedObjectManager(WSEndpointImpl.java:621)
+	at com.sun.xml.ws.server.WSEndpointImpl.<init>(WSEndpointImpl.java:151)
+	at com.sun.xml.ws.server.EndpointFactory.create(EndpointFactory.java:337)
+	at com.sun.xml.ws.server.EndpointFactory.create(EndpointFactory.java:332)
+	at com.sun.xml.ws.server.EndpointFactory.createEndpoint(EndpointFactory.java:164)
+	at com.sun.xml.ws.api.server.WSEndpoint.create(WSEndpoint.java:577)
+	at com.sun.xml.ws.api.server.WSEndpoint.create(WSEndpoint.java:560)
+	at com.sun.xml.ws.transport.http.DeploymentDescriptorParser.parseAdapters(DeploymentDescriptorParser.java:303)
+	at com.sun.xml.ws.transport.http.DeploymentDescriptorParser.parse(DeploymentDescriptorParser.java:179)
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate(WSServletContextListener.java:131)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: org.glassfish.external.amx.AMXGlassfish
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1275)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1109)
+	... 26 more
+
+22-Oct-2016 12:28:05.125 SEVERE [localhost-startStop-2] org.apache.catalina.core.StandardContext.startInternal Context [/magyarlanc-web] startup failed due to previous errors
+22-Oct-2016 12:28:05.132 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magyarlanc-web] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@375114b7]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@7f7dfcd8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+22-Oct-2016 12:28:05.138 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive D:\apache-tomcat-9.0.0.M11\webapps\magyarlanc-web.war has finished in 50,214 ms
+22-Oct-2016 13:32:47.319 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/magyarlanc-web]
+22-Oct-2016 13:33:10.266 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive D:\apache-tomcat-9.0.0.M11\webapps\lingsearch.war
+22-Oct-2016 13:33:43.370 SEVERE [localhost-startStop-3] org.apache.catalina.startup.ExpandWar.deleteDir [D:\apache-tomcat-9.0.0.M11\webapps\lingsearch] could not be completely deleted. The presence of the remaining files may cause problems
+22-Oct-2016 13:33:43.371 SEVERE [localhost-startStop-3] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/lingsearch]
+ java.io.IOException: Unable to create the directory [D:\apache-tomcat-9.0.0.M11\webapps\lingsearch\META-INF\license]
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:152)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:615)
+	at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:748)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:92)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:401)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:153)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Oct-2016 13:34:39.263 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 13:34:39.367 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 13:34:39.418 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Oct-2016 13:34:39.418 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWARs Error waiting for multi-thread deployment of WAR files to complete
+ java.lang.InterruptedException
+	at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:404)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:744)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:407)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1595)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:92)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1136)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1372)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1376)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Oct-2016 13:35:16.549 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22-Oct-2016 13:35:16.572 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive D:\apache-tomcat-9.0.0.M11\webapps\lingsearch.war has finished in 126,306 ms
+22-Oct-2016 13:35:16.588 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 13:35:16.591 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Oct-2016 13:35:16.623 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Oct-2016 13:35:16.624 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,50 @@
+27-Oct-2016 18:12:14.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M1
+27-Oct-2016 18:12:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 12 2015 22:05:52 UTC
+27-Oct-2016 18:12:14.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_101\jre
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Oct-2016 18:12:14.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11
+27-Oct-2016 18:12:14.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/zsjanos/IdeaProjects/LingSearch/apache-tomcat-9.0.0.M11/conf/logging.properties
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/zsjanos/IdeaProjects/LingSearch/apache-tomcat-9.0.0.M11
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/zsjanos/IdeaProjects/LingSearch/apache-tomcat-9.0.0.M11
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/zsjanos/IdeaProjects/LingSearch/apache-tomcat-9.0.0.M11/temp
+27-Oct-2016 18:12:14.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.10 using APR version 1.5.2.
+27-Oct-2016 18:12:14.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Oct-2016 18:12:15.452 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2j  26 Sep 2016)
+27-Oct-2016 18:12:15.577 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+27-Oct-2016 18:12:15.586 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+27-Oct-2016 18:12:15.588 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1041 ms
+27-Oct-2016 18:12:15.611 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Oct-2016 18:12:15.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M1
+27-Oct-2016 18:12:15.621 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\docs
+27-Oct-2016 18:12:17.005 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:12:17.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\docs has finished in 1,451 ms
+27-Oct-2016 18:12:17.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\examples
+27-Oct-2016 18:12:18.532 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:12:18.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\examples has finished in 1,514 ms
+27-Oct-2016 18:12:18.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\host-manager
+27-Oct-2016 18:12:19.624 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:12:19.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\host-manager has finished in 1,042 ms
+27-Oct-2016 18:12:19.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\manager
+27-Oct-2016 18:12:20.620 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:12:20.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\manager has finished in 994 ms
+27-Oct-2016 18:12:20.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ROOT
+27-Oct-2016 18:12:21.566 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:12:21.569 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ROOT has finished in 946 ms
+27-Oct-2016 18:12:21.572 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-apr-8080]
+27-Oct-2016 18:12:21.592 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-apr-8009]
+27-Oct-2016 18:12:21.605 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6017 ms
+27-Oct-2016 18:13:21.616 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws.war
+27-Oct-2016 18:13:25.637 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 18:13:26.485 INFO [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+27-Oct-2016 18:13:26.487 INFO [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 18:13:26.487 INFO [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 18:13:26.494 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws.war has finished in 4,878 ms

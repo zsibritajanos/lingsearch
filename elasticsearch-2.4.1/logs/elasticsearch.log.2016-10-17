@@ -1,0 +1,13 @@
+[2016-10-17 20:50:51,207][INFO ][node                     ] [Outlaw] version[2.4.1], pid[348], build[c67dc32/2016-09-27T18:57:55Z]
+[2016-10-17 20:50:51,207][INFO ][node                     ] [Outlaw] initializing ...
+[2016-10-17 20:50:51,816][INFO ][plugins                  ] [Outlaw] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-10-17 20:50:51,861][INFO ][env                      ] [Outlaw] using [1] data paths, mounts [[(C:)]], net usable_space [78.6gb], net total_space [99.9gb], spins? [unknown], types [NTFS]
+[2016-10-17 20:50:51,862][INFO ][env                      ] [Outlaw] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-10-17 20:50:54,741][INFO ][node                     ] [Outlaw] initialized
+[2016-10-17 20:50:54,741][INFO ][node                     ] [Outlaw] starting ...
+[2016-10-17 20:50:54,871][INFO ][transport                ] [Outlaw] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-10-17 20:50:54,875][INFO ][discovery                ] [Outlaw] elasticsearch/RM4RVGWdRMCv_GtBUVAlHQ
+[2016-10-17 20:50:58,898][INFO ][cluster.service          ] [Outlaw] new_master {Outlaw}{RM4RVGWdRMCv_GtBUVAlHQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-10-17 20:50:58,938][INFO ][http                     ] [Outlaw] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-10-17 20:50:58,938][INFO ][node                     ] [Outlaw] started
+[2016-10-17 20:50:58,976][INFO ][gateway                  ] [Outlaw] recovered [0] indices into cluster_state

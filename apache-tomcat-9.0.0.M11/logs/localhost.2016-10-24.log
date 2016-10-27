@@ -1,0 +1,1255 @@
+24-Oct-2016 16:27:22.814 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:27:22.814 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:34:20.666 SEVERE [localhost-startStop-3] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class com.sun.xml.ws.transport.http.servlet.WSServletContextListener
+ com.sun.xml.ws.transport.http.servlet.WSServletException: WSSERVLET11: failed to parse runtime descriptor: javax.xml.ws.WebServiceException: Runtime descriptor "/WEB-INF/sun-jaxws.xml" is missing
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate(WSServletContextListener.java:141)
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized(WSServletContextListener.java:152)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4717)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5179)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:952)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1823)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.xml.ws.WebServiceException: Runtime descriptor "/WEB-INF/sun-jaxws.xml" is missing
+	at com.sun.xml.ws.transport.http.servlet.WSServletContextListener.parseAdaptersAndCreateDelegate(WSServletContextListener.java:125)
+	... 14 more
+
+24-Oct-2016 16:35:56.987 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:35:56.987 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:36:02.098 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:36:02.098 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:36:27.311 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:36:27.311 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:36:31.359 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:36:31.359 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:36:54.545 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:36:54.545 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:36:59.898 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:36:59.898 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:39:21.069 SEVERE [http-nio-7777-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/emptyws] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:977)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:394)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:213)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:191)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:160)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:307)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:269)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:205)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:195)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:112)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 16:42:37.848 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:42:37.848 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:42:46.996 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:42:46.996 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:47:11.986 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:47:11.986 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:47:22.817 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:47:22.818 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:49:37.179 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:49:37.179 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:49:41.972 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:49:41.972 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:51:18.323 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:51:18.323 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:51:23.468 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:51:23.468 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:57:00.416 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:57:00.416 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 16:57:03.059 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:57:03.059 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:57:29.023 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 16:57:29.023 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 16:57:46.608 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 16:57:46.608 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 17:00:18.126 SEVERE [http-apr-7777-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/emptyws] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:977)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:394)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:213)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:191)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:160)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:307)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:269)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:205)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:195)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:112)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:00:31.419 SEVERE [http-apr-7777-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/emptyws] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:977)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:394)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:213)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:191)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:160)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:307)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:269)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:205)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:195)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:112)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:03:52.499 SEVERE [http-apr-7777-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/emptyws] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:05:33.713 SEVERE [http-apr-7777-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:05:45.823 SEVERE [http-apr-7777-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:06:38.355 SEVERE [http-apr-7777-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:11:13.329 INFO [localhost-startStop-9] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 17:11:13.329 INFO [localhost-startStop-9] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 17:11:24.827 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 17:11:24.827 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 17:12:25.459 SEVERE [http-apr-7777-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [javax.xml.ws.WebServiceException: Failed to access the WSDL at: http://localhost:7777/webservice/helloworld?wsdl. It failed with: 
+	http://localhost:7777/webservice/helloworld?wsdl.] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:12:34.529 SEVERE [http-apr-7777-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [javax.xml.ws.WebServiceException: Failed to access the WSDL at: http://localhost:7777/webservice/helloworld?wsdl. It failed with: 
+	http://localhost:7777/webservice/helloworld?wsdl.] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:14:43.883 SEVERE [http-apr-7777-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 37
+
+34:     String base64Const = "";
+35: 
+36:     if (content != null && content.trim().length() > 0) {
+37:         MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+38:         MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+39: 
+40:         /**
+
+
+Stacktrace:] with root cause
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:153)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:16:25.571 SEVERE [http-apr-7777-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [javax.xml.ws.WebServiceException: Failed to access the WSDL at: http://localhost:7777/webservice/helloworld?wsdl. It failed with: 
+	http://localhost:7777/webservice/helloworld?wsdl.] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:42)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:18:29.922 SEVERE [http-apr-7777-exec-14] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/webservice] threw exception [An exception occurred processing JSP page /index.jsp at line 21
+
+18:   <body>
+19: 
+20: <%
+21:   WebServiceImplService webServiceImplService = new WebServiceImplService();
+22:   WebServiceInterface webServiceInterface = webServiceImplService.getWebServiceImplPort();
+23: 
+24:   String parsed =webServiceInterface.getHelloWorldAsString("xyz");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:7777/webservice/helloworld?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at ws.WebServiceImplService.<init>(WebServiceImplService.java:43)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:32:14.969 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 17:32:14.969 INFO [localhost-startStop-6] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 17:32:45.989 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 17:32:45.989 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 17:33:12.415 SEVERE [http-apr-7777-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 29
+
+26: <%
+27: 
+28: 
+29:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+30:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+31: 
+32: 
+
+
+Stacktrace:] with root cause
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1169)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1105)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:999)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1513)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:141)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 17:33:47.078 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 17:33:47.078 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 17:33:54.564 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 17:33:54.564 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+24-Oct-2016 18:01:31.876 SEVERE [http-apr-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-webs] threw exception [An exception occurred processing JSP page /index.jsp at line 17
+
+14: <%
+15: 
+16: 
+17:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+18:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:8080/magyarlanc-web/magyarlanc-web?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:129)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:07:11.869 SEVERE [http-apr-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-websearch] threw exception [An exception occurred processing JSP page /index.jsp at line 17
+
+14: <%
+15: 
+16: 
+17:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+18:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:8080/magyarlanc-websearch/magyarlanc-websearch?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:129)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:13:17.781 SEVERE [http-apr-8080-exec-39] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 17
+
+14: <%
+15: 
+16: 
+17:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+18:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:8080/magyarlanc-web/magyarlanc-web?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:129)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:14:43.105 SEVERE [http-apr-8080-exec-35] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 17
+
+14: <%
+15: 
+16: 
+17:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+18:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:8080/magyarlanc-web/magyarlanc-web?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:129)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:14:56.631 SEVERE [http-apr-8080-exec-46] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 17
+
+14: <%
+15: 
+16: 
+17:     MagyarlancWebServiceImpService magyarlancWebServiceImpService = new MagyarlancWebServiceImpService();
+18:     MagyalancWebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+
+
+Stacktrace:] with root cause
+ java.io.FileNotFoundException: http://localhost:8080/magyarlanc-web/magyarlanc-web?wsdl
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1441)
+	at java.net.URL.openStream(URL.java:1045)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.createReader(RuntimeWSDLParser.java:999)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.resolveWSDL(RuntimeWSDLParser.java:400)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:231)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:209)
+	at com.sun.xml.ws.wsdl.parser.RuntimeWSDLParser.parse(RuntimeWSDLParser.java:178)
+	at com.sun.xml.ws.client.WSServiceDelegate.parseWSDL(WSServiceDelegate.java:363)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:321)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:230)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:211)
+	at com.sun.xml.ws.client.WSServiceDelegate.<init>(WSServiceDelegate.java:207)
+	at com.sun.xml.ws.spi.ProviderImpl.createServiceDelegate(ProviderImpl.java:114)
+	at javax.xml.ws.Service.<init>(Service.java:77)
+	at magyarlanc.webservice.MagyarlancWebServiceImpService.<init>(MagyarlancWebServiceImpService.java:38)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:129)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:30:09.013 SEVERE [http-apr-8080-exec-61] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [An exception occurred processing JSP page /index.jsp at line 18
+
+15: 
+16: 
+17:     WebServiceImpService magyarlancWebServiceImpService = new WebServiceImpService();
+18:     WebServiceInterface magyalancWebServiceInterface = magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+21: 
+
+
+Stacktrace:] with root cause
+ javax.xml.ws.WebServiceException: {http://webservice.magyarlanc/}MagyarlancWebServiceImpPort is not a valid port. Valid ports are: {http://webservice.magyarlanc/}WebServiceImpPort
+	at com.sun.xml.ws.client.WSServiceDelegate.getPortModel(WSServiceDelegate.java:851)
+	at com.sun.xml.ws.client.WSServiceDelegate.getPort(WSServiceDelegate.java:418)
+	at com.sun.xml.ws.client.WSServiceDelegate.getPort(WSServiceDelegate.java:401)
+	at javax.xml.ws.Service.getPort(Service.java:119)
+	at magyarlanc.webservice.WebServiceImpService.getMagyarlancWebServiceImpPort(WebServiceImpService.java:68)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:130)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:438)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 18:34:20.988 SEVERE [http-apr-8080-exec-74] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/magyarlanc-web] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /index.jsp
+magyarlancWebServiceImpService cannot be resolved or is not a field
+15: 
+16: 
+17:     WebServiceImpService webServiceImpService = new WebServiceImpService();
+18:     WebServiceInterface webServiceInterface = webServiceImpService.magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+21: 
+
+
+An error occurred at line: 20 in the jsp file: /index.jsp
+magyalancWebServiceInterface cannot be resolved
+17:     WebServiceImpService webServiceImpService = new WebServiceImpService();
+18:     WebServiceInterface webServiceInterface = webServiceImpService.magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+21: 
+22: %>
+23: <p>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: 18 in the jsp file: /index.jsp
+magyarlancWebServiceImpService cannot be resolved or is not a field
+15: 
+16: 
+17:     WebServiceImpService webServiceImpService = new WebServiceImpService();
+18:     WebServiceInterface webServiceInterface = webServiceImpService.magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+21: 
+
+
+An error occurred at line: 20 in the jsp file: /index.jsp
+magyalancWebServiceInterface cannot be resolved
+17:     WebServiceImpService webServiceImpService = new WebServiceImpService();
+18:     WebServiceInterface webServiceInterface = webServiceImpService.magyarlancWebServiceImpService.getMagyarlancWebServiceImpPort();
+19: 
+20:     String res =magyalancWebServiceInterface.parse("abs");
+21: 
+22: %>
+23: <p>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:198)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:336)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:323)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:585)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:363)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:217)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:184)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:105)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:361)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:1080)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:75)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:757)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2287)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+24-Oct-2016 19:12:06.762 INFO [localhost-startStop-25] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+24-Oct-2016 19:12:06.762 INFO [localhost-startStop-25] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+24-Oct-2016 19:12:13.983 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+24-Oct-2016 19:12:13.983 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
