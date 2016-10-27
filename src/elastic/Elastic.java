@@ -8,6 +8,7 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 
 import java.io.IOException;
 import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,9 +24,10 @@ public class Elastic {
             .put("cluster.name", "elasticsearch").build();
 
     public Elastic() {
+
         try {
             client = TransportClient.builder().settings(settings).build()
-                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300));
+                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getLocalHost(), 9300));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -72,7 +74,6 @@ public class Elastic {
     public static void main(String[] args) {
         Elastic elastic = new Elastic();
         //elastic.load();
-        elastic.getElementById("AVgHwkff_Dj2_nYbAg8p");
-
+        System.out.println(elastic.getElementById("AVgHwkff_Dj2_nYbAg8p"));
     }
 }

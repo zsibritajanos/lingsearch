@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="emptyws" basedir=".">
+<project name="lingsearch" basedir=".">
 
 	<property environment="env" />
 	<property name="src" value="src" />
@@ -11,8 +11,9 @@
 	</presetdef>
 
 	<path id="compile.all.classpath">
+
 		<fileset dir="${lib}">
-			<include name="emptyws.jar" />
+			<include name="elasticsearch-2.4.1.jar" />
 		</fileset>
 	</path>
 

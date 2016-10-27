@@ -1,5 +1,7 @@
 package elastic;
 
+import ws.WebServiceImp;
+
 /**
  * Created by zsjanos on 2016.10.27..
  */
@@ -20,5 +22,9 @@ public class Token {
 
     public Token(){
 
+    }
+
+    public static void main(String[] args){
+        System.out.println(WebServiceImp.test("http://localhost:9200/users/_search -d'{}'"));
     }
 }

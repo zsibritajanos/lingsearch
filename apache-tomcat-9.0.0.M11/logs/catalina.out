@@ -48,3 +48,95 @@
 27-Oct-2016 18:13:26.487 INFO [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
 27-Oct-2016 18:13:26.487 INFO [localhost-startStop-2] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
 27-Oct-2016 18:13:26.494 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws.war has finished in 4,878 ms
+27-Oct-2016 22:49:18.848 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\lingsearch.war
+27-Oct-2016 22:50:23.394 SEVERE [localhost-startStop-3] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/lingsearch]
+ java.io.IOException: Unable to create the directory [C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\lingsearch\META-INF\license]
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:152)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:651)
+	at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:312)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:152)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:718)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:941)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1780)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Oct-2016 22:52:00.682 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 22:52:01.604 INFO [localhost-startStop-3] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+27-Oct-2016 22:52:01.605 INFO [localhost-startStop-3] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 22:52:01.605 INFO [localhost-startStop-3] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 22:52:01.611 INFO [http-apr-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/lingsearch]] after start() had already been called. The second call will be ignored.
+27-Oct-2016 22:52:01.612 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\lingsearch.war has finished in 162,765 ms
+27-Oct-2016 22:54:01.729 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ws]
+27-Oct-2016 22:54:01.734 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+27-Oct-2016 22:54:01.798 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+27-Oct-2016 22:54:01.798 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+27-Oct-2016 22:54:01.869 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@4859def1]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@ea969f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.869 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@4859def1]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@ea969f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.870 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1] (value [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1@8818080]) and a value of type [java.util.HashSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.870 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@4859def1]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@ea969f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.870 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1] (value [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1@8818080]) and a value of type [java.util.HashSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.871 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@4859def1]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@ea969f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.871 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1] (value [com.sun.xml.ws.api.server.ThreadLocalContainerResolver$1@4859def1]) and a value of type [com.sun.xml.ws.api.server.Container.NoneContainer] (value [com.sun.xml.ws.api.server.Container$NoneContainer@ea969f2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:01.871 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ws] created a ThreadLocal with key of type [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1] (value [com.sun.xml.ws.api.client.ServiceInterceptorFactory$1@8818080]) and a value of type [java.util.HashSet] (value [[]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Oct-2016 22:54:04.086 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws.war
+27-Oct-2016 22:54:48.692 SEVERE [localhost-startStop-4] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/ws]
+ java.io.IOException: Unable to create the directory [C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws\META-INF\license]
+	at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:152)
+	at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:651)
+	at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:774)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:312)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:407)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:152)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:718)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:941)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1780)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Oct-2016 22:55:52.360 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Oct-2016 22:55:52.360 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+27-Oct-2016 22:55:52.411 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+27-Oct-2016 22:55:52.461 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Oct-2016 22:55:52.461 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployWARs Error waiting for multi-thread deployment of WAR files to complete
+ java.lang.InterruptedException
+	at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:404)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:728)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:397)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1546)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:281)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1137)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1373)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1377)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1345)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Oct-2016 22:56:18.273 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Oct-2016 22:56:18.310 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+27-Oct-2016 22:56:18.311 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 22:56:18.311 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+27-Oct-2016 22:56:18.313 INFO [http-apr-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ws]] after start() had already been called. The second call will be ignored.
+27-Oct-2016 22:56:18.314 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive C:\Users\zsjanos\IdeaProjects\LingSearch\apache-tomcat-9.0.0.M11\webapps\ws.war has finished in 134,228 ms
+27-Oct-2016 22:56:18.356 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.destroy WSSERVLET15: JAX-WS servlet destroyed
+27-Oct-2016 22:56:18.356 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+27-Oct-2016 22:56:18.356 INFO [localhost-startStop-4] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextDestroyed WSSERVLET13: JAX-WS context listener destroyed
+27-Oct-2016 22:56:18.397 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+27-Oct-2016 22:56:18.488 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+27-Oct-2016 22:56:18.573 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+27-Oct-2016 22:56:18.573 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
