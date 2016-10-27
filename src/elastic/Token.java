@@ -2,6 +2,9 @@ package elastic;
 
 import ws.WebServiceImp;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
 /**
  * Created by zsjanos on 2016.10.27..
  */
@@ -25,6 +28,11 @@ public class Token {
     }
 
     public static void main(String[] args){
-        System.out.println(WebServiceImp.test("http://localhost:9200/users/_search -d'{}'"));
+        String q = "' -d''";
+        try {
+            System.out.println(WebServiceImp.test("http://localhost:9200/users/user/_search?" + URLEncoder.encode(q, "utf-8")));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
     }
 }
