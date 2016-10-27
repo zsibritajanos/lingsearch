@@ -2,110 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7faa7fe2-f730-498a-8a71-840d19c79af4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Elastic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Reader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Stai.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Token.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\_state\global-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\index\segments_5" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\translog\translog-4.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\index\segments_5" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\translog\translog-4.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\index\segments_5" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\translog\translog-4.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\index\segments_9" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\translog\translog-7.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\translog\translog-7.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\index\segments_5" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\translog\translog-4.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\_state\state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\segments_3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\translog\translog-1.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\translog\translog-1.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\translog\translog-2.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\_state\state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\segments_3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\translog\translog-1.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\translog\translog-1.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\translog\translog-2.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\_state\state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_0.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_0.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_0.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_1.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_1.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_1.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\segments_6" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\_state\state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_1.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_1.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_1.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\segments_6" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\translog\translog-3.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\translog\translog-3.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\translog\translog-4.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\_state\state-1.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\segments_3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\translog\translog-1.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\translog\translog-1.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\translog\translog-2.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\_state\state-4.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\HdrHistogram-2.1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\apache-log4j-extras-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\commons-cli-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\compiler-0.8.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\compress-lzf-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jackson-dataformat-cbor-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jackson-dataformat-smile-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jackson-dataformat-yaml-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jaxws-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jna-4.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\joda-convert-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\jts-1.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-analyzers-common-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-backward-codecs-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-grouping-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-highlighter-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-join-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-memory-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-misc-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-queries-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-queryparser-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-sandbox-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-spatial-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-spatial3d-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\lucene-suggest-5.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\securesm-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\snakeyaml-1.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\lib\spatial4j-0.5.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/4/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/Examples.java" afterPath="$PROJECT_DIR$/src/elastic/Examples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/MyElastic.java" afterPath="$PROJECT_DIR$/src/elastic/MyElastic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ws/WebServiceImp.java" afterPath="$PROJECT_DIR$/src/ws/WebServiceImp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/logs/elasticsearch.log" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/logs/elasticsearch.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apache-tomcat-9.0.0.M11/logs/localhost_access_log.2016-10-27.txt" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.0.M11/logs/localhost_access_log.2016-10-27.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LingSearch.iws" />
@@ -771,16 +667,16 @@
       <created>1477584835804</created>
       <option name="number" value="Default" />
       <updated>1477584835804</updated>
-      <workItem from="1477584837010" duration="10643000" />
+      <workItem from="1477584837010" duration="11236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10643000" />
+    <option name="totallyTimeSpent" value="11236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -794,7 +690,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
