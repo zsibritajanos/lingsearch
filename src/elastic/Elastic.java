@@ -8,7 +8,6 @@ import org.elasticsearch.common.transport.InetSocketTransportAddress;
 
 import java.io.IOException;
 import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,62 +17,45 @@ import java.util.Map;
  */
 public class Elastic {
 
-    private TransportClient client = null;
-
     private Settings settings = Settings.settingsBuilder()
             .put("cluster.name", "elasticsearch").build();
 
-    public Elastic() {
+    private TransportClient client = null;
 
+
+    public Elastic() {
         try {
             client = TransportClient.builder().settings(settings).build()
-                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getLocalHost(), 9300));
+                    .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName("localhost"), 9300));
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    /**
-     * @param word
-     * @param lemma
-     * @param morph
-     * @param dep
-     * @return
-     */
-    public static Map<String, Object> getJson(String word, String lemma, String morph, String dep) {
+    public static Map<String, Object> getJson(String name, int age) {
         Map<String, Object> jsonDocument = new HashMap<>();
-        jsonDocument.put("word", word);
-        jsonDocument.put("lemma", lemma);
-        jsonDocument.put("morph", morph);
-        jsonDocument.put("dep", dep);
+        jsonDocument.put("name", name);
+        jsonDocument.put("age", age);
         return jsonDocument;
     }
 
-    public void load() {
-        List<Token> tokens = Reader.read("./data/hvg.conll");
+    public void upload() {
 
-        for (Token token : tokens) {
-            Map j = getJson(token.word, token.lemma, token.morph, token.dep);
-            System.out.println(j);
 
-            IndexResponse response = client.prepareIndex("users", "user")
-                    .setSource(j)
-                    .execute()
-                    .actionGet();
+        Map user = getJson("ccc", 44);
+        System.out.println(user);
 
-            System.out.println(response.getId());
-        }
-    }
+        IndexResponse response = client.prepareIndex("users", "user")
+                .setSource()
+                .execute()
+                .actionGet();
 
-    public Map<String, Object> getElementById(String id) {
-        GetResponse getResponse = client.prepareGet("users", "user", id).execute().actionGet();
-        return getResponse.getSource();
+        System.out.println(response.getId());
     }
 
 
     public static void main(String[] args) {
         Elastic elastic = new Elastic();
-        //elastic.load();
-        System.out.println(elastic.getElementById("AVgHwkff_Dj2_nYbAg8p"));
+        elastic.upload();
     }
 }

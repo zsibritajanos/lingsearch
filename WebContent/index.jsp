@@ -11,17 +11,31 @@
 </head>
 <body>
 
+<form action="index.jsp" method="POST">
+    lemma:<br>
+    <input type="text" name="lemma"><br>
+    <input type="submit" value="SEARCH">
+</form>
+
+
 <%
+    request.setCharacterEncoding("UTF-8");
+    String content = request.getParameter("lemma");
 
-    WebServiceImpService webServiceImpService = new WebServiceImpService();
-    WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
+    String parsed = "";
+    if (content != null && content.trim().length() > 0) {
+        WebServiceImpService webServiceImpService = new WebServiceImpService();
+        WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
 
-    String res = webServiceInterface.hello("Janos");
-
+        /**
+         * parsed
+         */
+        parsed = webServiceInterface.hello(content);
+    }
 %>
 <p>
 <pre>
-        <%= res %>
-
+    <%= parsed %>
+<pre/>
 </body>
 </html>

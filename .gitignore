@@ -1,1 +1,7 @@
 /.idea/*
+bin/
+
+*.bak
+
+apache-tomcat-9.0.0.M11/
+elasticsearch-2.4.1/

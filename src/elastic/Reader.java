@@ -12,6 +12,23 @@ import java.util.stream.Stream;
  */
 public class Reader {
 
+    public static List<String> readLines(String file) {
+        List<String> lines = new LinkedList<>();
+
+        try (BufferedReader br = new BufferedReader(
+                new InputStreamReader(
+                        new FileInputStream(file), "UTF8"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return lines;
+    }
+
     public static List<Token> read(String file) {
         List<Token> tokens = new LinkedList<>();
 

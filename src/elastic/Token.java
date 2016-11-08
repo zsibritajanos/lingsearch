@@ -23,16 +23,7 @@ public class Token {
         this.dep = dep;
     }
 
-    public Token(){
+    public Token() {
 
-    }
-
-    public static void main(String[] args){
-        String q = "' -d''";
-        try {
-            System.out.println(WebServiceImp.test("http://localhost:9200/users/user/_search?" + URLEncoder.encode(q, "utf-8")));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        }
     }
 }
