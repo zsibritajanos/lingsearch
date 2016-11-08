@@ -14,7 +14,7 @@
 
 		<fileset dir="${lib}">
 			<include name="elasticsearch-2.4.1.jar" />
-			<include name="CommonUtil.jar" />
+			<include name="java-json.jar" />
 		</fileset>
 	</path>
 
@@ -57,6 +57,7 @@
 													lib/guava-18.0
 													lib/hppc-0.7.1
 													lib/jackson-core-2.8.1
+													lib/java-json.jar
 													lib/joda-time-2.9.4
 													lib/jsr166e-1.1.0
 													lib/lucene-core-5.5.2

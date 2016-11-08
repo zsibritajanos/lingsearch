@@ -3342,3 +3342,492 @@ java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítette
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:29:55,822][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:30:25,861][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:30:55,919][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:31:25,979][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:31:56,008][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:32:26,069][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:32:56,157][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:33:26,212][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:33:56,247][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:34:26,276][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:34:56,306][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:35:07,188][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x121abc13, /127.0.0.1:60658 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:35:26,341][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:35:56,370][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:36:26,404][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.7gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 21:36:56,433][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:37:26,464][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:37:56,527][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:38:26,555][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:38:56,594][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:39:26,636][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:39:56,683][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:40:26,747][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:40:56,800][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:41:26,845][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:41:56,912][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:42:12,578][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x6b0cf539, /127.0.0.1:60887 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:42:26,978][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:42:50,763][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x66c50cf0, /127.0.0.1:60896 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:42:57,033][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:43:27,064][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:43:57,110][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:44:27,164][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:44:57,193][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:45:27,251][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:45:57,315][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:46:27,347][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:46:57,376][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:47:06,629][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x7ac4c791, /127.0.0.1:60959 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:47:27,417][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:47:43,177][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x6351846e, /127.0.0.1:60964 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:47:55,281][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0xba9468d0, /127.0.0.1:60972 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:47:57,461][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:48:27,515][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:48:42,675][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x1f7ca394, /127.0.0.1:60981 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:48:57,551][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:49:25,753][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x33f88ef2, /127.0.0.1:60997 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:49:27,605][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:49:51,063][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x5250b9b9, /127.0.0.1:61008 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:49:57,668][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:50:27,712][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:50:53,980][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x72eb26e9, /127.0.0.1:61106 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:50:57,777][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:51:05,377][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0xfadc7e2f, /127.0.0.1:61113 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:51:12,421][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x21cccdd5, /127.0.0.1:61120 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:51:27,808][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:51:30,316][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x04c47365, /127.0.0.1:61162 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:51:41,851][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x8f1f95d4, /127.0.0.1:61168 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:51:50,658][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0xdb50239e, /127.0.0.1:61173 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:51:57,837][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:52:18,515][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0xd76e19e6, /127.0.0.1:61182 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:52:27,901][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:52:40,419][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x5ca31a7d, /127.0.0.1:61194 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 21:52:57,960][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:53:28,024][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:53:58,054][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:54:28,084][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:54:58,141][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:55:28,199][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:55:58,241][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:56:28,282][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:56:58,331][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:57:28,368][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:57:58,417][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:58:28,458][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:58:58,494][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:59:28,542][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 21:59:58,594][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:00:28,660][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:00:58,691][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:01:28,730][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:01:58,761][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:02:28,795][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:02:58,839][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:03:28,894][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:03:58,924][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:04:28,993][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:04:59,045][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:05:29,079][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:05:56,185][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x17d5567a, /127.0.0.1:61522 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 22:05:59,117][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:06:29,169][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:06:59,199][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:07:29,251][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:07:59,286][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:08:29,318][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:08:59,347][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:09:29,391][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:09:59,420][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:10:29,456][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:10:59,503][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:11:29,531][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:11:59,584][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:12:29,643][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:12:59,673][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:13:29,703][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:13:59,769][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:14:29,799][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:14:59,830][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:15:29,886][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:15:59,941][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:16:29,970][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:17:00,030][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:17:30,074][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:18:00,110][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:18:30,161][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:19:00,192][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:19:30,229][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:20:00,294][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:20:30,339][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:21:00,375][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:21:30,427][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:22:00,485][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:22:30,516][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:23:00,563][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:23:30,627][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:24:00,659][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:24:30,689][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:25:00,749][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:25:30,782][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:26:00,817][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:26:30,875][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:27:00,910][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:27:30,942][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:28:00,973][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:28:31,008][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:29:01,042][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:29:31,076][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:29:46,140][WARN ][http.netty               ] [Gambit] Caught exception while handling client http traffic, closing connection [id: 0x8826a3ea, /127.0.0.1:62101 => /127.0.0.1:9200]
+java.io.IOException: A létező kapcsolatot a távoli állomás kényszerítetten bezárta
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-11-08 22:30:01,107][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:30:31,138][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:31:01,172][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:31:31,209][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:32:01,264][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:32:31,306][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:33:01,373][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:33:31,402][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.5%], replicas will not be assigned to this node
+[2016-11-08 22:34:01,454][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:34:31,510][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:35:01,562][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:35:31,592][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:36:01,649][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:36:31,684][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.5gb[14.6%], replicas will not be assigned to this node
+[2016-11-08 22:37:01,742][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:37:31,773][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:38:01,834][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:38:31,863][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:39:01,922][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:39:31,953][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:40:02,021][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:40:32,052][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:41:02,106][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:41:32,154][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:42:02,188][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:42:32,217][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:43:02,278][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:43:32,312][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:44:02,370][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:44:32,412][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:45:02,465][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:45:32,497][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:46:02,555][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:46:32,613][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:47:02,672][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:47:32,731][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:48:02,763][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:48:32,793][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:49:02,826][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:49:32,884][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:50:02,941][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:50:32,974][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:51:03,021][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:51:33,074][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:52:03,128][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node
+[2016-11-08 22:52:33,167][INFO ][cluster.routing.allocation.decider] [Gambit] low disk watermark [85%] exceeded on [qs8K9R1TS8GDkf6wSax_4w][Gambit][C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0] free: 14.6gb[14.7%], replicas will not be assigned to this node

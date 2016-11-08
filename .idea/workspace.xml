@@ -2,247 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7faa7fe2-f730-498a-8a71-840d19c79af4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/elastic/HttpUplader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/HttpUplader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/elastic/Search.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Search.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/elastic/Uploader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Uploader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/apache-tomcat-9.0.0.M11.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch-2.4.1.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog-10.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog-7.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog-7.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog-7.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog-7.ckp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ws.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/FlatElement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/FlatTokenUploader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/HttpUplader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Search.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/elastic/Uploader.java" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\_state\global-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\index\segments_7" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\translog\translog-5.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\index\segments_7" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\translog\translog-5.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\index\segments_7" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\translog\translog-5.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\index\segments_b" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\translog\translog-8.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\_state\state-6.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\index\segments_7" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\translog\translog-5.ckp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\_state\state-9.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\_state\state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene50_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene50_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene50_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene50_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene54_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6e_Lucene54_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6f.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6f.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6f.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6g.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6g.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6g.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6h.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6h.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6h.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6i.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6i.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6i.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6j.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6j.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6j.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6k.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6k.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\_6k.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\index\segments_c" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\0\translog\translog-7.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\_state\state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene50_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene50_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene50_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene50_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene54_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6y_Lucene54_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6z.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6z.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_6z.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_70.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_70.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\_70.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\index\segments_c" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\1\translog\translog-7.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\_state\state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p_Lucene50_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p_Lucene50_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p_Lucene50_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p_Lucene54_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6p_Lucene54_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6q.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6q.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6q.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6r.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6r.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6r.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6s.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6s.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6s.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6t.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6t.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6t.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6u.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6u.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6u.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6v.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6v.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6v.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6w.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6w.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6w.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6x.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6x.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6x.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6z.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6z.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\_6z_Lucene50_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\index\segments_g" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\2\translog\translog-12.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\_state\state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_1.liv" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene50_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene50_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene50_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene50_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene54_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6p_Lucene54_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6q.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6q.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6q.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6r.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6r.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6r.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6s.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6s.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6s.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6x.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6x.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6x.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6x_1.liv" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6y.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6y.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6y.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6z.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6z.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_6z.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_70.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_70.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\_70.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\index\segments_f" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\3\translog\translog-9.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\_state\state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.fdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.fdx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.fnm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.nvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.nvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene50_0.doc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene50_0.pos" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene50_0.tim" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene50_0.tip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene54_0.dvd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6e_Lucene54_0.dvm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6f.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6f.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6f.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6g.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6g.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6g.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6h.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6h.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6h.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6i.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6i.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6i.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6j.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6j.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6j.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6k.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6k.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6k.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6l.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6l.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6l.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6m.cfe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6m.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\_6m.si" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\index\segments_c" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\4\translog\translog-7.tlog" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\users\_state\state-8.st" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\0\translog\translog-5.tlog" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog-8.tlog" />
-      <change type="MOVED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\1\translog\translog-5.tlog" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog-8.tlog" />
-      <change type="MOVED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\2\translog\translog-5.tlog" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog-8.tlog" />
-      <change type="MOVED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\3\translog\translog-8.tlog" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog-11.tlog" />
-      <change type="MOVED" beforePath="C:\Users\zsjanos\IdeaProjects\LingSearch\elasticsearch-2.4.1\data\elasticsearch\nodes\0\indices\twitter\4\translog\translog-5.tlog" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog-8.tlog" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/elastic/Elastic.class" afterPath="$PROJECT_DIR$/bin/elastic/Elastic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/elastic/Elastic.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Elastic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/elastic/Reader.class" afterPath="$PROJECT_DIR$/bin/elastic/Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/elastic/Reader.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Reader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/elastic/Token.class" afterPath="$PROJECT_DIR$/bin/elastic/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/elastic/Token.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Token.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/elastic/FlatTokenUploader.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/FlatTokenUploader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/elastic/Search.class" afterPath="$PROJECT_DIR$/bin/elastic/Search.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/elastic/Search.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/elastic/Search.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ws/WebServiceImp.class" afterPath="$PROJECT_DIR$/bin/ws/WebServiceImp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/ws/WebServiceImp.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/ws/WebServiceImp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/twitter/4/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/data/elasticsearch/nodes/0/indices/users/4/translog/translog.ckp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/ws/WebServiceInterface.class" afterPath="$PROJECT_DIR$/bin/ws/WebServiceInterface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LingSearch/ws/WebServiceInterface.class" afterPath="$PROJECT_DIR$/out/production/LingSearch/ws/WebServiceInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ws.war" afterPath="$PROJECT_DIR$/ws.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/Elastic.java" afterPath="$PROJECT_DIR$/src/elastic/Elastic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/Reader.java" afterPath="$PROJECT_DIR$/src/elastic/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/Token.java" afterPath="$PROJECT_DIR$/src/elastic/Token.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elastic/Search.java" afterPath="$PROJECT_DIR$/src/elastic/Search.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ws/WebServiceImp.java" afterPath="$PROJECT_DIR$/src/ws/WebServiceImp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ws/WebServiceInterface.java" afterPath="$PROJECT_DIR$/src/ws/WebServiceInterface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticsearch-2.4.1/logs/elasticsearch.log" afterPath="$PROJECT_DIR$/elasticsearch-2.4.1/logs/elasticsearch.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.jsp" afterPath="$PROJECT_DIR$/WebContent/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LingSearch.iws" />
@@ -266,15 +39,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebServiceImp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ws/WebServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2915952">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -284,56 +59,30 @@
         <entry file="file://$PROJECT_DIR$/src/elastic/Search.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stai.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/Stai.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.518851">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/Test.java">
+      <file leaf-file-name="WebServiceClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ws/client/WebServiceClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/Token.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Uploader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/Uploader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -342,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/ws/WebServiceInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -354,31 +103,48 @@
         <entry file="file://$PROJECT_DIR$/src/ws/WebServicePublisher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="58" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="58" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/Reader.java">
+      <file leaf-file-name="WebServiceImpService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ws/WebServiceImpService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlatTokenUploader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elastic/FlatTokenUploader.java">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <element signature="e#2789#2790#0" expanded="true" />
-                <element signature="e#2864#2865#0" expanded="true" />
-              </folding>
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sun-jaxws.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/sun-jaxws.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -408,22 +174,22 @@
         <option value="$PROJECT_DIR$/src/elastic/Stai.java" />
         <option value="$PROJECT_DIR$/src/elastic/ReNew.java" />
         <option value="$PROJECT_DIR$/src/ws/WebServicePublisher.java" />
-        <option value="$PROJECT_DIR$/src/ws/WebServiceInterface.java" />
         <option value="$PROJECT_DIR$/src/ws/WebServiceImpService.java" />
         <option value="$PROJECT_DIR$/src/elastic/Token.java" />
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/elastic/HttpUplader.java" />
         <option value="$PROJECT_DIR$/src/elastic/Elastic.java" />
         <option value="$PROJECT_DIR$/src/elastic/Uploader.java" />
-        <option value="$PROJECT_DIR$/src/ws/WebServiceImp.java" />
-        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
         <option value="$PROJECT_DIR$/src/elastic/UploadFlatTokens.java" />
         <option value="$PROJECT_DIR$/src/elastic/FlatElement.java" />
         <option value="$PROJECT_DIR$/src/elastic/Test.java" />
         <option value="$PROJECT_DIR$/src/elastic/DepFlatter.java" />
         <option value="$PROJECT_DIR$/src/elastic/Reader.java" />
-        <option value="$PROJECT_DIR$/src/elastic/Search.java" />
         <option value="$PROJECT_DIR$/src/elastic/FlatTokenUploader.java" />
+        <option value="$PROJECT_DIR$/src/ws/WebServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/ws/WebServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/elastic/Search.java" />
+        <option value="$PROJECT_DIR$/WebContent/index.jsp" />
       </list>
     </option>
   </component>
@@ -500,6 +266,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LingSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LingSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LingSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LingSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,6 +394,8 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -600,14 +404,14 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Search">
-    <configuration default="false" name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DepFlatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="elastic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="elastic.Search" />
+      <option name="MAIN_CLASS_NAME" value="elastic.DepFlatter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -668,26 +472,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="elastic.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LingSearch" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DepFlatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="elastic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="elastic.DepFlatter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1004,23 +788,42 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Search" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="elastic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="elastic.Search" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LingSearch" />
+      <envs />
+      <method />
+    </configuration>
     <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Application.HttpUplader" />
       <item index="1" class="java.lang.String" itemvalue="Application.Token" />
       <item index="2" class="java.lang.String" itemvalue="Application.Elastic" />
       <item index="3" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FlatTokenUploader" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Uploader" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="7" class="java.lang.String" itemvalue="Application.DepFlatter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DepFlatter" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FlatTokenUploader" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Uploader" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Search" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FlatTokenUploader" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Uploader" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DepFlatter" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.FlatTokenUploader" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Uploader" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DepFlatter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1038,12 +841,12 @@
       <workItem from="1477603836700" duration="659000" />
       <workItem from="1477604515931" duration="7038000" />
       <workItem from="1477656328917" duration="12994000" />
-      <workItem from="1478629893442" duration="5872000" />
+      <workItem from="1478629893442" duration="11047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39363000" />
+    <option name="totallyTimeSpent" value="44538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1098,21 +901,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/sei/SEIStub.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="62" selection-start-line="134" selection-start-column="62" selection-end-line="134" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elastic/MyElastic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="7" selection-start-line="62" selection-start-column="5" selection-end-line="77" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elastic/Token.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1129,8 +917,6 @@
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1180,8 +966,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1190,6 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,8 +1052,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1273,6 +1062,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,41 +1159,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ws/client/WebServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ws/WebServiceImpService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1134#1135#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1423#1424#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1735#1736#0" expanded="false" />
-            <element signature="e#1783#1784#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1503,45 +1264,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ws/WebServicePublisher.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="58" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elastic/Search.java">
+    <entry file="file://$PROJECT_DIR$/src/ws/WebServicePublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-          </folding>
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ws/client/WebServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/sun-jaxws.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ws/WebServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ws/WebServiceImpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="53" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ws/WebServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2915952">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elastic/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.518851">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

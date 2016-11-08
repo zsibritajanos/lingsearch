@@ -4,6 +4,8 @@
 
 <%@ page import="ws.WebServiceInterface" %>
 <%@ page import="ws.WebServiceImpService" %>
+<%@ page import="java.util.List" %>
+
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -12,30 +14,56 @@
 <body>
 
 <form action="index.jsp" method="POST">
-    lemma:<br>
-    <input type="text" name="lemma"><br>
+    <!--lemma: <input type="text" name="lemma"><br> -->
+    dep rel: <input type="text" name="dep">
     <input type="submit" value="SEARCH">
 </form>
 
 
 <%
     request.setCharacterEncoding("UTF-8");
-    String content = request.getParameter("lemma");
+    // String content = request.getParameter("lemma");
+    String depQuery = request.getParameter("dep");
 
-    String parsed = "";
-    if (content != null && content.trim().length() > 0) {
+    String toScreen = "";
+
+    String parsed = null;
+
+//    if (content != null && content.trim().length() > 0) {
+//        WebServiceImpService webServiceImpService = new WebServiceImpService();
+//        WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
+//
+//        /**
+//         * parsed
+//         */
+//        parsed = webServiceInterface.hello(content);
+//    }
+
+    if (depQuery != null && depQuery.trim().length() > 0) {
         WebServiceImpService webServiceImpService = new WebServiceImpService();
         WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
 
         /**
          * parsed
          */
-        parsed = webServiceInterface.hello(content);
+
+        parsed = webServiceInterface.searchByDep(depQuery);
+
+
+//        for (String p : parsed) {
+//            toScreen += p + "<br />";
+//        }
     }
+
+
 %>
+
 <p>
 <pre>
-    <%= parsed %>
-<pre/>
+<%=
+    parsed
+%>
+</pre>
+
 </body>
 </html>
