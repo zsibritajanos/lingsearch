@@ -19,4 +19,9 @@ public class WebServiceImp implements WebServiceInterface {
     public String searchByDep(String dep) {
         return Search.searchByDep(dep);
     }
+
+    @Override
+    public String searchMultiple(String arg0, String arg1, String arg2, String arg3, String arg4) {
+        return Search.searchByMultiple(arg0, arg1, arg2, arg3, arg4);
+    }
 }

@@ -2,9 +2,8 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
-<%@ page import="ws.WebServiceInterface" %>
 <%@ page import="ws.WebServiceImpService" %>
-<%@ page import="java.util.List" %>
+<%@ page import="ws.WebServiceInterface" %>
 
 <html>
 <head>
@@ -14,54 +13,33 @@
 <body>
 
 <form action="index.jsp" method="POST">
-    <!--lemma: <input type="text" name="lemma"><br> -->
-    dep rel: <input type="text" name="dep">
+    child Lemma: <input type="text" name="childlemma">
+    child POS: <input type="text" name="childpos">
+    dep rel: <input type="text" name="dep" value="NE">
+    parent Lemma: <input type="text" name="parentlemma">
+    parent POS: <input type="text" name="parentpos">
     <input type="submit" value="SEARCH">
 </form>
 
 
 <%
     request.setCharacterEncoding("UTF-8");
-    // String content = request.getParameter("lemma");
-    String depQuery = request.getParameter("dep");
 
-    String toScreen = "";
+    String childlemma = request.getParameter("childlemma") == null ? "" : request.getParameter("childlemma");
+    String childpos = request.getParameter("childpos") == null ? "" : request.getParameter("childpos");
+    String depQuery = request.getParameter("dep") == null ? "" : request.getParameter("dep");
+    String parentlemma = request.getParameter("parentlemma") == null ? "" : request.getParameter("parentlemma");
+    String parentpos = request.getParameter("parentpos") == null ? "" : request.getParameter("parentpos");
 
-    String parsed = null;
-
-//    if (content != null && content.trim().length() > 0) {
-//        WebServiceImpService webServiceImpService = new WebServiceImpService();
-//        WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
-//
-//        /**
-//         * parsed
-//         */
-//        parsed = webServiceInterface.hello(content);
-//    }
-
-    if (depQuery != null && depQuery.trim().length() > 0) {
-        WebServiceImpService webServiceImpService = new WebServiceImpService();
-        WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
-
-        /**
-         * parsed
-         */
-
-        parsed = webServiceInterface.searchByDep(depQuery);
-
-
-//        for (String p : parsed) {
-//            toScreen += p + "<br />";
-//        }
-    }
-
-
+    WebServiceImpService webServiceImpService = new WebServiceImpService();
+    WebServiceInterface webServiceInterface = webServiceImpService.getWebServiceImpPort();
+    String parsed = webServiceInterface.searchMultiple(childlemma, childpos, depQuery, parentlemma, parentpos);
 %>
 
 <p>
 <pre>
 <%=
-    parsed
+parsed
 %>
 </pre>
 
